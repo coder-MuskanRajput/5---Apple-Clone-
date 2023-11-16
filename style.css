@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 7%;
+    background-color:#444445;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+}
+#nav h5{
+    color:#d4d4d7;
+
+}
+#nav i{
+    color: white;
+}
+#nav2{
+    width: 100%;
+    height: 9%;
+    text-align: center;
+    padding:20px;
+    color: #646466;
+    /* background-color: white; */
+    
+}
+#center-page-2{
+    width: 100%;
+    height: 85%;
+    background-color: black;
+    background-image:url(https://www.apple.com/v/home/ba/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:19px;
+    text-align: center;
+}
+#center-page-2>h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#center-page-2>h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+}
+#center-page-2>a{
+    color :#2997FF;
+    text-align: center;   
+     padding: 15px;
+     font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#center-page-2 a:hover{
+    text-decoration: underline;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    padding-top: 3.5%; 
+   /* border-top: 2px solid black ; */
+
+}
+#page2
+{
+    width: 100%;
+    height: 100%;
+
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    
+}
+#center-page-3{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url(https://www.apple.com/v/home/ba/images/heroes/iphone-14/hero_iphone14_yellow__eun20sn4imi6_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#center-page-3>h1{
+    color:black;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#center-page-3>h2{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+}
+#center-page-3>a{
+    color :#2997FF;
+    text-align: center;   
+     padding: 15px;
+     font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#center-page-3 a:hover{
+    text-decoration: underline;
+
+}
+#center-page-1{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* position: absolute;
+    top: 10%; */
+    /* padding: 8%; */
+}
+#center-page-1>video{
+    width: 100%;
+    height: 65%;
+    text-align: center;
+}
+#center-page-1>h1{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#center-page-1>h3{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    
+}
+#center-page-1>a{
+    color :#2997FF;
+    text-align: center;   
+     padding-bottom: 15px;
+     font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#center-page-1 a:hover{
+    text-decoration: underline;
+}
+#page4{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#content1-page-4{
+    width: 48%;
+    height: 97%;
+    /* background-color: black; */
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+}
+#content1-page-4>h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content1-page-4>.one{
+    color: white;
+    text-align: center;
+    /* font-size: 25px; */
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding: 8px; */
+    color: rgb(239, 31, 31);
+}
+#content1-page-4>.two{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    /* letter-spacing: 2px; */
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+}
+#content1-page-4>a{
+    color :#2997FF;
+    text-align: center;   
+     padding: 15px;
+     font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content1-page-4 a:hover{
+    text-decoration: underline;
+}
+#content2-page-4{
+    width: 48%;
+    height: 97%;
+    /* background-color:rgb(206, 65, 65); */
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/ipad/promo_ipad__fioegapg12qi_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    padding-top: 4%;
+}
+#content2-page-4>h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content2-page-4>p{
+    color: white;
+    text-align: center;
+    /* font-size: 25px; */
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding: 8px; */
+    color: rgb(48, 47, 47);
+    
+}
+#content2-page-4>a{
+    color :#0f7be0;
+    text-align: center;   
+     padding: 19px;
+     font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content2-page-4 a:hover{
+    text-decoration: underline;
+}
+#page5{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#content1-page-5{
+    width: 48%;
+    height: 97%;
+    background-color: black;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color:black; */
+    padding-top: 4%;
+    text-align: center;
+}
+#content1-page-5>h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content1-page-5>p{
+    color: white;
+    text-align: center;
+    /* font-size: 25px; */
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+    /* color: rgb(48, 47, 47); */
+    
+}
+#content1-page-5>a{
+    color :#0f7be0;
+    text-align: center;   
+     padding: 15px;
+     font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content1-page-5 a:hover{
+    text-decoration: underline;
+}
+
+#content2-page-5{
+    width: 48%;
+    height: 97%;
+    /* background-color:rgb(204, 56, 56); */
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color:black; */
+    padding-top: 4%;
+    text-align: center;
+}
+#content2-page-5>h1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content2-page-5>p{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    /* letter-spacing: 2px; */
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    /* color: rgb(239, 31, 31); */
+}
+#content2-page-5>a{
+    color :#2087e6;
+    text-align: center;   
+     /* padding-top: 60px; */
+     font-size: 10px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content2-page-5 a:hover{
+    text-decoration: underline;
+}
+#page6{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#content1-page-6{
+    width: 48%;
+    height: 97%;
+    background-color: black;
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color:black; */
+    padding-top: 4%;
+    text-align: center;
+}
+#content1-page-6>h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content1-page-6>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    color: rgb(175, 173, 173);
+}
+#content1-page-6>a{
+    color :#2087e6;
+    text-align: center;   
+     gap: 10px;
+     font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content1-page-6 a:hover{
+    text-decoration: underline;
+}
+
+#content2-page-6{
+    width: 48%;
+    height: 97%;
+    background-color:rgb(204, 56, 56);
+    background-image: url(https://www.apple.com/v/home/ba/images/promos/homepod/promo_homepod_announce__bhviq9vjnlf6_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color:black; */
+    padding-top: 4%;
+    text-align: center;
+
+}
+#content2-page-6>h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content2-page-6>p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 8px;
+    color: rgb(175, 173, 173);
+}
+#content2-page-6>a{
+    color :#2087e6;
+    text-align: center;   
+     gap: 10px;
+     font-size: 18px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+#content2-page-6 a:hover{
+    text-decoration: underline;
+}
